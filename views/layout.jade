@@ -1,0 +1,22 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/lib/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')	
+  body
+    div.navbar.navbar-inverse.navbar-fixed-top
+      div.navbar-inner
+        div.container
+          a.brand(href='#') 
+            img(src='images/ediscover_logo.png')
+          .login.pull-right
+            button.btn Login
+    .container
+      .row
+        block content
+      .row  
+        block footer
+          #footer
+            .pull-right
+              p Copyright ©1999-2012 Ediscover Pte Ltd. All rights reserved.
