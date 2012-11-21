@@ -36,4 +36,30 @@ body {
    -moz-box-shadow:    3px 3px 5px 6px #ccc;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   box-shadow:         3px 3px 5px 6px #ccc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+.span4 {
+	background-color: #fcf8f3;
+	-webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  
+
+}
+
+.span4 h2 {
+	padding-left: 10px;
+	background-color: #b6c4dc;
+}
+
+.span4 p {
+	padding-left: 10px;
 }
