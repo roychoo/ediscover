@@ -5,13 +5,15 @@ html
     link(rel='stylesheet', href='/stylesheets/lib/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')	
   body
-    div.navbar.navbar-inverse.navbar-fixed-top
+    div.navbar.navbar-inverse.navbar-fixed-top.navbar-shadow
       div.navbar-inner
         div.container
           a.brand(href='#') 
             img(src='images/ediscover_logo.png')
           .login.pull-right
-            button.btn Login
+            a.btn 
+              i.icon-user
+              | Login
     .container
       .row
         block content
