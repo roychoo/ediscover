@@ -12,6 +12,10 @@ html {
 	overflow: hidden;
 }
 
+.navbar-inner {
+	filter: none;
+}
+
 #footer {
 	margin-top: 2em;
 	margin-bottom: 1em;
