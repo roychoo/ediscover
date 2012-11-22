@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body {
+	background-image: url('/images/background-image.jpg');
+	background-size: cover;
+}
+.navbar-inverse .navbar-inner {
+	background-image: url('/images/header-background.png');
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+
+.hero-unit {
+	background: none;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Ubuntu';
+}
+
+.box {
+	padding: 10px;
+  background-color: #000;
+	-webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Ubuntu';
+}
+
+#footer {
+	margin-top: 2em;
+	margin-bottom: 1em;
+	padding-top: 1em;
+	border-top: 1px solid #D4CDC1;
+	color: #fff;
+	bottom: 0;
+}
+
+.login {
+	padding-top: 2em;
+}

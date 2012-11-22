@@ -1,6 +1,9 @@
-body {
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+html {
     padding-top: 150px;
     min-height: 700px;
+    min-width: 1024px;
+    height: 100%;
 }
 
 .navbar-inverse .navbar-inner {
@@ -49,16 +52,7 @@ body {
 }
 
 .span4 div {
-	padding: 0px;
-  border: 1px solid;
-  border-color: #000000;
-  background-color: #000;
-	-webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  color: #fff;
+ 
 }
 
 .span4 h2 {
@@ -73,4 +67,22 @@ body {
 	background: none;
 	color: #ffffff;
 	text-align: center;
+	font-family: 'Ubuntu';
+}
+
+.hero-unit h1 {
+	word-wrap: break-word;
+	white-space: normal;
+}
+
+.box {
+	padding: 5px;
+	 border-color: #000000;
+  background-color: #000;
+	-webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
 }
