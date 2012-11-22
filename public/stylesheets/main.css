@@ -41,3 +41,13 @@ body {
 .login {
 	padding-top: 2em;
 }
+
+@media (max-width: 767px) {
+	.hero-unit h1 {
+		font-size: 42px;
+	}
+
+	a.brand img {
+		height: 100px;
+	}
+}
