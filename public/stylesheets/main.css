@@ -48,6 +48,7 @@ body {
 	}
 
 	a.brand img {
-		height: 100px;
+		width: 100px;
+		height: 35px;
 	}
 }
