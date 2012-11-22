@@ -5,7 +5,7 @@ html
     link(rel='stylesheet', href='/stylesheets/lib/bootstrap.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')	
   body
-    div.navbar.navbar-inverse.navbar-fixed-top.navbar-shadow
+    div.navbar.navbar-inverse.navbar-fixed-top
       div.navbar-inner
         div.container
           a.brand(href='#') 
@@ -22,3 +22,7 @@ html
           #footer
             .pull-right
               p Copyright ©1999-2012 Ediscover Pte Ltd. All rights reserved.
+      script(src="/javascripts/lib/jquery-1.7.1.min.js", type="application/javascript")
+      script(src="/javascripts/jquery.anystretch.min.js", type="application/javascript")
+      script(type='text/javascript')
+        $('body').anystretch("images/background-image.jpg");
